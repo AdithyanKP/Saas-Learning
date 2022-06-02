@@ -7,4 +7,8 @@ h1 {
 h2 {
   color: green;
 }
+
+.button, .secondButton {
+  background-color: aquamarine;
+}
 /*# sourceMappingURL=style.css.map */

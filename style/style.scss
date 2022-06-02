@@ -10,10 +10,20 @@ $maincolor : green;
 }
 
 
+
+
 h1{
     
     @include headerStyle;
 }
 h2{
     color: $maincolor;
+}
+
+//extend usage
+.button{
+    background-color: aquamarine;
+}
+.secondButton{
+    @extend .button;
 }
