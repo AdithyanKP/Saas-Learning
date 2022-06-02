@@ -1,7 +1,18 @@
 //variable creation in saas
 $maincolor : green;
+
+//functionn in saas
+@mixin  headerStyle {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    color: aqua
+    
+}
+
+
 h1{
-    color: $maincolor;
+    
+    @include headerStyle;
 }
 h2{
     color: $maincolor;
