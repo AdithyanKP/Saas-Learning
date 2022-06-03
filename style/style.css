@@ -1,11 +1,13 @@
 h1 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-weight: 800;
-  color: aqua;
+  color: #2600ff;
 }
 
 h2 {
-  color: green;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 800;
+  color: #2600ff;
 }
 
 .button, .secondButton {
